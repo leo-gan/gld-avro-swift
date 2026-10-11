@@ -1,0 +1,24 @@
+@namespace("ex")
+protocol Demo {
+  enum Color { RED, GREEN, BLUE }
+  fixed Hash4(4);
+  record Inner {
+    int x;
+  }
+  record Kitchen {
+    null n;
+    boolean b;
+    int i;
+    long l;
+    float f;
+    double d;
+    bytes by;
+    string s;
+    array<int> a;
+    map<string> m;
+    Color e;
+    Hash4 fx;
+    union { null, string } u = null;
+    Inner inner;
+  }
+}

@@ -1,0 +1,1 @@
+[{"type":"record","name":"A","fields":[{"name":"b","type":["null","B"]}]},{"type":"record","name":"B","fields":[{"name":"a","type":["null","A"]}]}]
