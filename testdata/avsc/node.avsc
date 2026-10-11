@@ -1,0 +1,1 @@
+{"type":"record","name":"Node","fields":[{"name":"payload","type":["Node","string"]}]}

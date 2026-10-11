@@ -1,0 +1,8 @@
+{
+  "protocol": "Demo",
+  "namespace": "ex",
+  "types": [
+    {"type": "record", "name": "Leaf", "fields": [{"name": "s", "type": "string"}]}
+  ],
+  "messages": {"ping": {"request": [], "response": "null"}}
+}
