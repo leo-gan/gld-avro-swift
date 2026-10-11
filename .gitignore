@@ -1,0 +1,29 @@
+# Secrets. Never commit.
+.env
+.env.*
+!.env.example
+
+# Scratch
+temp/
+
+# MkDocs
+site/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+*.xcodeproj
+DerivedData/
+.swift-version
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
