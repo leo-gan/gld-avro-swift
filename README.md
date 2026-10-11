@@ -18,6 +18,6 @@ let bytes = try encodeGeneric(value, pool: pool)
 let back = try decodeGeneric(bytes, pool: pool)
 ```
 
-Version `0.1.0` (`VERSION`). MIT, Copyright (c) 2026 Leonid Ganeline.
+Version `0.2.0` (`VERSION`). MIT, Copyright (c) 2026 Leonid Ganeline.
 
 Docs: `mkdocs build --strict` with `requirements-docs.txt`.

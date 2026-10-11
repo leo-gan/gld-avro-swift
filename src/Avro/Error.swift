@@ -1,4 +1,4 @@
-public let avroLibraryVersion = "0.1.0"
+public let avroLibraryVersion = "0.2.0"
 
 public struct DecodeError: Error, Equatable, Sendable, CustomStringConvertible {
     public enum Kind: Int, Equatable, Sendable {
