@@ -10,6 +10,14 @@ swift run gld-avrogen-swift --schema testdata/avsc/kitchen.avsc --out /tmp/avro-
 swift run encode-record
 ```
 
+After the `0.2.0` tag exists:
+
+```swift
+.package(url: "https://github.com/leo-gan/gld-avro-swift", from: "0.2.0"),
+```
+
+Depend on the library product `Avro`. Registration on the Swift Package Index: [docs/publishing.md](docs/publishing.md).
+
 ```swift
 import Avro
 
