@@ -1,6 +1,16 @@
 # Instructions
 
-Swift 6 is required. This tree is developed with Swift 6.3.
+Swift 6 is required. This tree is developed with Swift 6.3. The library product is `Avro`.
+
+## Install
+
+```swift
+.package(url: "https://github.com/leo-gan/gld-avro-swift", from: "0.2.0"),
+```
+
+Depend on the product `Avro`, then `import Avro`.
+
+## Build this repository
 
 ```bash
 swift test

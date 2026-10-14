@@ -16,7 +16,7 @@ After the `0.2.0` tag exists:
 .package(url: "https://github.com/leo-gan/gld-avro-swift", from: "0.2.0"),
 ```
 
-Depend on the library product `Avro`. Registration on the Swift Package Index: [docs/publishing.md](docs/publishing.md).
+Depend on the library product `Avro`.
 
 ```swift
 import Avro
