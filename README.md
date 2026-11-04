@@ -1,5 +1,7 @@
 # gld-avro-swift
 
+[Serialization](https://leo-gan.github.io/serialization/) is the hub for the theory, the history, and the benchmarks.
+
 From-scratch Apache Avro for Swift. Module `Avro`. Codegen CLI `gld-avrogen-swift`.
 
 The runtime encodes and decodes Avro binary, Avro JSON, object container files (`null` and raw DEFLATE), and single-object frames. It parses `.avsc` and `.avdl`, computes the parsing canonical form and CRC-64-AVRO, and resolves a writer schema onto a reader schema. It does not link libavro.
